@@ -6,8 +6,7 @@
 Các Component là các khối kiến trúc nền tảng tạo nên một ứng dụng Android. Những Component này được ghép bởi `AndroidManifest.xml`, miêu tả mỗi thành phần và cách chúng tương tác với nhau.
 
 ## 1.2. Component chính
-
-Các Component là các khối kiến trúc nền tảng tạo nên một ứng dụng Android. Những Component này được ghép bởi `AndroidManifest.xml`, miêu tả mỗi thành phần và cách chúng tương tác với nhau.
+Có 4 Component chính có thể được sử dụng bên trong một ứng dụng Android:
 
 |Component|Mô tả|
 |--|--|
