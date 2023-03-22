@@ -39,8 +39,8 @@ Fragment trong Android có vòng đời riêng của nó, tương tự như mộ
 
 |Tiêu chí|Activity|Fragment|
 |--|--|--|
-|Vị trí đối với ứng dụng|Activity là hoạt động,cửa số chính,tồn tại độc lập|Fragment là một phần của Activity Đóng góp UI và hoạt động của nó vào thành phần chính|
-|Vị trí tương đối với nhau|Fragment là một phần của Activity|Fragment là một phần của Activity|
+|Vị trí đối với ứng dụng|Activity là hoạt động,cửa số chính,tồn tại độc lập|Fragment là một phần của Activity, đóng góp UI và hoạt động của nó vào thành phần chính|
+|Vị trí tương đối với nhau|Activity có thể chứa nhiều Fragment|Fragment là một phần của Activity|
 |Tái hoạt động|Không thể tái hoạt động|Một fragment có thể được tái sử dụng trong một activity,do đó nó hoạt động như một thành phần tái sử dụng trong các hoạt động.|
 |Tư tưởng hình thành|Các hoạt động là một trong những khối xây dựng cơ bản của ứng dụng trên nền tảng Android. Chúng đóng vai trò là điểm vào cho sự tương tác của người dùng với một ứng dụng và cũng là trung tâm cho cách người dùng điều hướng trong ứng dụng hoặc giữa các ứng dụng|Fragment đại diện cho một hành vi hoặc một phần của giao diện người dùng trong một hoạt động. Bạn có thể kết hợp nhiều fragment trong một hoạt động để xây dựng giao diện đa cửa sổ và sử dụng lại một đoạn trong nhiều hoạt động. Bạn có thể nghĩ ra một đoạn như một phần mô đun của một hoạt động, có vòng đời riêng của nó, nhận các sự kiện đầu vào của chính nó, và bạn có thể thêm hoặc xoá trong khi hoạt động đang chạy.|
 |Tổ chức vòng đời|Các phương pháp vòng đời được tổ chức bởi hệ điều hành (OS).|Phương pháp vòng đời được tổ chức bởi tổ chức bởi hoạt động lưu trữ (hosting activity)|
