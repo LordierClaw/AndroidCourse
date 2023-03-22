@@ -29,7 +29,7 @@ Trong Activity Lifecycle có **3 vòng lặp** mà chúng ta cần phải nắm 
 - **Visible lifetime**: Xảy ra giữa `onStart()` và `onStop()`. Lúc này, Activity hiện hữu trên màn hình và user có thể nhìn thấy nó kể cả khi Activity không nằm trên cùng (foreground) và tương tác với user. Giữa 2 hàm callback này, ta có thể **lưu trữ các tài nguyên cần thiết** cho việc hiển thị activity đến user. Ví dụ như khi bạn có thể tạo *register* ***BroadcastReceiver*** ở `onStart()` để theo đõi những thay đổi liên quan đến giao diện người dùng (UI) và *unregister* nó ở `onStop()` khi user không còn nhìn thấy những gì được hiển thị
 - **Foreground lifetime**: Xảy ra giữa `onResume()` và `onPause()`. Trong thời gian này, Activiy visible, active và có thể tương tác với user. Một Activity có thể thường xuyên qua lại giữa 2 trạng thái này(khi thiết bị rơi vào ***trạng thái sleep*** hoặc bị activity khác ***che khuất không hoàn toàn***).
 
-## 2.1. Chi tiết về các trạng thái
+## 2.3. Chi tiết về các trạng thái
 
 Các trạng thái của Activity:
 
